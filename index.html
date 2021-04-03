@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
         integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Web Studio (Version 2.1)</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <nav>
                 <ul class="menu">
                     <li>
-                        <a class="menu__item--active" href="./index.html">Студия</a>
+                        <a class="menu__item menu__item--active" href="./index.html">Студия</a>
                     </li>
                     <li>
                         <a class="menu__item" href="./portfolio.html">Портфолио</a>
@@ -104,7 +105,7 @@
         <!-- Чем мы занимаемся -->
         <section class="jobs">
             <div class="container">
-                <h2 class="section-header">Чем мы занимаемся</h2>
+                <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="flex-list">
                     <li class="jobs-item flex-three-items-in-row">
                         <img src="./images/job-example-1.jpg" alt="Разработка десктоп приложений" width="370" height="294">
@@ -131,7 +132,7 @@
         <!-- Наша команда -->
         <section class="team">
             <div class="container">
-                <h2 class="section-header">Наша команда</h2>
+                <h2 class="section-title">Наша команда</h2>
                 <ul class="flex-list">
                     <li class="team__item flex-four-items-in-row">
                         <img src="./images/our-team-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
@@ -291,7 +292,7 @@
         <!-- Постоянные клиенты -->
         <section class="clients">
             <div class="container">
-                <h2 class="section-header">Постоянные клиенты</h2>
+                <h2 class="section-title">Постоянные клиенты</h2>
                 <ul class="flex-list">
                     <li class="clients__item">
                         <a class="clients__icon icon-wrapper" href="">
@@ -456,9 +457,10 @@
                 <input class="default-checkbox visually-hidden" type="checkbox" name="agreement" id="agreement">
                 <label class="agreement" for="agreement">
                     <span class="check-off"></span>
-                    <svg class="check-on" width="16" height="15">
+                    <span class="check-on"></span>
+                    <!-- <svg class="check-on" width="16" height="15">
                         <use href="./images/sprite.svg#check-on"></use>
-                    </svg>
+                    </svg> -->
                     <span class="agreement__text">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
                 </label>
                 
